@@ -4,4 +4,4 @@ This repository was created to track my work on the DevOps course at [Andersen](
 
 What can be seen at the moment: 
 - A few details about [myself](https://github.com/GiaSoPas/DevOps_Course/tree/master/AboutMyself)
-- Small daily blog (TIL) 
+- Small daily blog ([TIL](https://github.com/GiaSoPas/DevOps_Course/blob/master/TIL/TIL.md)) 
