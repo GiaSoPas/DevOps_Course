@@ -28,6 +28,27 @@ ____
 - 🍺🍺🍺
 - 🍹🍹🍹
 
-# 07.06.2021
+# 08.06.2021
 ____
-- Learned important aspects about the architecture of shell
+
+- Studied whois and netstat commands 
+
+# 09.06.2021
+____
+
+- Learned about DevTools. Dev concepts
+
+# 11.06.2021
+____
+
+- Here Documents vs Here string 
+
+# 12.06.2021
+____
+
+- Happy Russia Day !!!
+
+# 13.06.2021
+____
+
+- The only way to really learn scripting is to write scripts.
