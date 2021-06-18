@@ -12,3 +12,4 @@ What can be seen at the moment:
 | [A one-liner into a nice script](https://github.com/GiaSoPas/DevOps_Course/tree/master/Script)   |  14.06 21:00	 |  done v1  |
 | python-flask-ansible  | 23.06 21:00  |  in the process |
 | telegram bot  | 30.06 21:00 |  in the process |
+| [git-script](https://github.com/GiaSoPas/DevOps_Course/tree/master/git-script) | 21.06.2021 | done v1 |
