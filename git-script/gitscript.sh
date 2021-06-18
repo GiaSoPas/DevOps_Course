@@ -49,8 +49,8 @@ array1=($name)
 array2=($labels)
 IFS=$OIFS
 
-count=${#array1[@]}
-for i in `seq 1 $count`
+#count=${#array1[@]}
+for i in `seq 1 ${#array1[@]}`
 do
     if [[ ${array2[$i-1]} != "null" ]];
     then
