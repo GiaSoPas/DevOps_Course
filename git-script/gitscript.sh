@@ -12,7 +12,7 @@ echo "_______________________________________________________"
 echo "user = $user"
 echo "repo = $rep"
 
-string=$(curl -s "https://api.github.com/repos/"$user"/"$rep"/pulls")
+string=$(curl -s "https://api.github.com/repos/"$user"/"$rep"/pulls?per_page=1000&state=open")
 #string=$(curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/"$user"/"$rep"/pulls?state=open)
 if [ "$?" -ne 0 ]
 then
