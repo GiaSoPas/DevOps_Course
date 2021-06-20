@@ -1,0 +1,12 @@
+[Unit]
+Description=My flask web application
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/vagrant/
+ExecStart=/usr/bin/python3 /home/vagrant/main.py 
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

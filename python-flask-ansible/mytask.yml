@@ -1,0 +1,76 @@
+---
+  - name       : Create and deploy your own service
+    hosts      : flask
+    become     : yes
+
+    tasks:
+      - name: Install packages
+        apt:
+          name          : "{{ item }}"
+          force         : yes
+          update_cache  : yes
+          autoremove    : yes
+          autoclean     : yes
+        with_items      : ["python3", "python3-pip", "python-setuptools", "ufw"]
+        
+        
+      - name: copy sshd file
+        copy:
+         src  : sshd_config
+         dest : /etc/ssh/
+         force: yes
+
+      - name: restart sshd
+        service:
+          name: sshd
+          state: restarted
+          
+      - name: enable ufw
+        ufw:
+          state: enabled
+          policy: allow
+
+      - name   : rules for ufw
+        command: "ufw {{ item }}"
+        with_items: ["default deny incoming", "default allow outgoing", "allow ssh", "allow 80", "allow 443"]
+
+      - name: Creating app dir
+        file:
+          path : /home/vagrant/
+          state: directory
+          mode : '0775'
+
+      - name: install flask
+        pip:
+          executable: pip3
+          name: flask
+          state: latest
+      - name: pip3 command
+        command: pip3 install --upgrade pip
+
+      - name: copy file
+        copy:
+          src : main.py
+          dest: /home/vagrant/
+          mode: '0775'
+
+      - name: copy systemd file
+        copy:
+          src : myflask.service
+          dest: /etc/systemd/system/
+
+      - name: enable service
+        service:
+          name   : myflask.service
+          enabled: yes
+
+      - name: start service
+        service:
+          name : myflask.service
+          state: started
+
+      - name : restart ufw
+        service:
+          name: ufw
+          state: restarted
+
