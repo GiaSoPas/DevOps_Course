@@ -44,3 +44,39 @@ Made with ❤️ by %your_name
 ### Requirements
 * Debian 10
 * VirtualBox VM
+
+# My Task
+_____
+After you run the following two commands, you will have a fully running virtual machine in VirtualBox running.
+Initialize Vagrant:
+```sh
+vagrant init generic/debian10
+```
+Start the virtual machine:
+```sh
+vagrant up
+```
+SSH into this machine, and explore your environment:
+```sh
+vagrant ssh
+```
+To start a playbook: 
+```sh
+./start
+```
+Things are happening in this script:
+1. Ssh-keygen for creating new authentication key pairs for SSH
+2. Using ssh-copy-id to install SSH keys on server
+3. Run Ansible playbook, executing the defined tasks on the targeted hosts.
+
+> The default location for inventory is a file /etc/ansible/hosts.
+
+Things are happening in mytask.yml playbook:
+1. Copy sshd file
+2. Enable rules for ufw
+3. Install flask, copy `main.py` in the target host
+4. Copy, enable, start service file
+
+Things are happening in sshd_config:
+1. To only allow Public Key Authentication.
+2. Disable SSH login for the root user.
