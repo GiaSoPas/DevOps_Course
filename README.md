@@ -11,5 +11,5 @@ What can be seen at the moment:
 | [Small daily blog](https://github.com/GiaSoPas/DevOps_Course/blob/master/TIL/TIL.md)  | 07.06 21:00	   |  done |
 | [A one-liner into a nice script](https://github.com/GiaSoPas/DevOps_Course/tree/master/Script)   |  14.06 21:00	 |  done v1  |
 | [python-flask-ansible](https://github.com/GiaSoPas/DevOps_Course/tree/master/python-flask-ansible)  | 23.06 21:00  |  done v1 |
-| telegram bot  | 30.06 21:00 |  in the process |
+| [telegram bot](https://github.com/GiaSoPas/DevOps_Course/tree/master/botgo)  | 30.06 21:00 | done v1 |
 | [git-script](https://github.com/GiaSoPas/DevOps_Course/tree/master/git-script) | 21.06.2021 | done v1 |
