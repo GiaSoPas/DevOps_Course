@@ -52,3 +52,37 @@ ____
 ____
 
 - The only way to really learn scripting is to write scripts.
+
+# 16.06.2021
+____
+
+- Greate commit message
+
+# 17.06.2021
+____
+
+-Linux containers, docker
+
+# 18.06.2021
+____
+
+-Linux cgroups
+
+# 19.06.2021
+____
+
+- linux namespaces
+
+# 21.06.2021
+
+- Infrastructure as Code
+
+# 22.06.2021
+
+- Infrastructure as Code
+
+# 23.06.2021
+
+- Cloud provisioning Tools
+
+
