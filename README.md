@@ -12,4 +12,6 @@ What can be seen at the moment:
 | [A one-liner into a nice script](https://github.com/GiaSoPas/DevOps_Course/tree/master/Script)   |  14.06 21:00	 |  done v1  |
 | [python-flask-ansible](https://github.com/GiaSoPas/DevOps_Course/tree/master/python-flask-ansible)  | 23.06 21:00  |  done v1 |
 | [telegram bot](https://github.com/GiaSoPas/DevOps_Course/tree/master/botgo)  | 30.06 21:00 | done v1 |
-| [git-script](https://github.com/GiaSoPas/DevOps_Course/tree/master/git-script) | 21.06.2021 | done v1 |
+| [git-script](https://github.com/GiaSoPas/DevOps_Course/tree/master/git-script) | 21.06.2021 21:00 | done v1 |
+| [docker task](https://github.com/GiaSoPas/DevOps_Course/tree/master/dockertask) | 28.06.2021 21:00 | in the progress |
+
