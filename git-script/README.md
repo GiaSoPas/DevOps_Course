@@ -15,7 +15,7 @@
 ### My Script 
 Example:
 ```
-./test.sh https://github.com/dotnet/AspNetCore.Docs
+gitscript.sh https://github.com/dotnet/AspNetCore.Docs
 Checks if there are open pull requests for a repository
 _______________________________________________________
 user = dotnet
