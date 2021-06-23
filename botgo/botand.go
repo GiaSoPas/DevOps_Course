@@ -60,11 +60,11 @@ func main() {
 		case "task4":
 			msg.Text = "https://github.com/GiaSoPas/DevOps_Course/tree/master/python-flask-ansible"
 		case "task5":
-			msg.Text = "wait a while"
+			msg.Text = "https://github.com/GiaSoPas/DevOps_Course/tree/master/botgo"
 		case "task6":
 			msg.Text = "https://github.com/GiaSoPas/DevOps_Course/tree/master/git-script"
 		case "task7":
-			msg.Text = "wait a while"
+			msg.Text = "https://github.com/GiaSoPas/DevOps_Course/tree/master/dockertask"
 		default:
 			msg.Text = "I don't know that command"
 		}
