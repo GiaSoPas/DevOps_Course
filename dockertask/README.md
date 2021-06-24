@@ -8,7 +8,7 @@ A task:
 Requirements:
 * the result of the assembly must be an image not exceeding 100MB
 * application must listen on port 8080
-* request `curl -d '{" animal ":" cow "," sound ":" moooo "," count ": 3}' http: // localhost: 8080 /` should return the expected response
+* request `curl -d '{"animal":"cow","sound":"moooo","count": 3}' http://localhost:8080` should return the expected response
 * the directory with the task should contain only the files required for the build and README.md
 * only `docker build` and / or` docker-compose` are allowed 
 
