@@ -15,3 +15,8 @@ What can be seen at the moment:
 | [git-script](https://github.com/GiaSoPas/DevOps_Course/tree/master/git-script) | 21.06.2021 21:00 | done v1 |
 | [docker task](https://github.com/GiaSoPas/DevOps_Course/tree/master/dockertask) | 28.06.2021 21:00 | done v1 |
 
+# Exam Application Repositories 
+| Language  | Link | status |
+| ------------- | ------------- |---------|
+| Python | [app1](https://github.com/GiaSoPas/Exam-Python)  | [![CI/CD](https://github.com/GiaSoPas/Exam-Python/actions/workflows/main.yml/badge.svg)](https://github.com/GiaSoPas/Exam-Python/actions/workflows/main.yml)|
+| Go | [app2](https://github.com/GiaSoPas/Exam-Go)  | [![CI/CD](https://github.com/GiaSoPas/Exam-Go/actions/workflows/main.yml/badge.svg)](https://github.com/GiaSoPas/Exam-Go/actions/workflows/main.yml)|
