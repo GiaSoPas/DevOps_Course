@@ -81,7 +81,7 @@ resource "aws_subnet" "sub_two" {
 
 }
 
-# Grant the VPC internet access on its main route table
+
 resource "aws_route" "internet_access" {
   route_table_id         = aws_vpc.main.main_route_table_id
   destination_cidr_block = "0.0.0.0/0"
@@ -108,9 +108,6 @@ resource "aws_security_group" "elb" {
 
 }
 
-
-# Our default security group to access
-# the instances over SSH and HTTP
 resource "aws_security_group" "web" {
   name        = "sec_gr_default"
   vpc_id      = aws_vpc.main.id

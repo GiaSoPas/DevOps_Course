@@ -1,0 +1,11 @@
+start - start
+help - commands
+git - returns the address of my repository 
+tasks - returns a numbered list of completed tasks
+task1 - #1 A few details about myself
+task2 - #2 Small daily blog
+task3 - #3 A one-liner into a nice script
+task4 - #4 python-flask-ansible
+task5 - #5 telegram bot
+task6 - #6 git-script
+task7 - #7 docker task 
